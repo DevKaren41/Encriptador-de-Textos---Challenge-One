@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Codificador</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+	<header>
+		<h1 class="figura"><img src="imagens/Vector.png" alt="Logo Alura"></h1>
+	</header>
+	<main>
+			<section>
+				<textarea class="caixa" cols="30" rows="10"  placeholder="Clique aqui e digite seu texto:" required></textarea>
+					<div class="informacao">
+						<h2>Apenas letras minusculas e sem acento</h2>
+					</div>
+
+				<div class="botoes">
+					<button class="crip" onclick="btnEncriptar()">Criptografar</button>
+					<button class="descrip" onclick="btnDesencriptar()">Descriptografar</button>
+				</div>
+			</section>	
+
+			<section>					
+				<textarea class="segundacaixa" cols="30" rows="10" ></textarea>
+				<button class="copiar" onclick="btnCopiar()">Copiar</button>
+				<h3 id="naoaparece">Nenhuma mensagem<br>encontrada</h3>
+				<h4 id="naoaparece2">Digite um texto que deseja <br> criptografar ou descriptografar</h4>
+			</section>
+	</main>
+		<footer>
+			<p class="rodape">Desenvolvido por Karen Rodrigues Challenge ONE(Oracle Next Education) & Alura.</p>
+			<a href="https://www.linkedin.com/in/karen-rodrigues-eng/"><img class="icone1" src="imagens/linkedin.png"></a>
+			<a href="https://github.com/DevKaren41/Encriptador-/tree/main"><img class="icone2" src="imagens/github (2).png"></a>
+		</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

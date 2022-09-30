@@ -1,0 +1,201 @@
+*{
+	font-family: 'Inter', sans-serif;
+	font-size: 32px;
+	font-weight: 400px;
+}
+
+main{
+
+	display: flex;
+}
+
+body{
+
+	background: linear-gradient(#F3F5FC,#836FFF);
+}
+
+.figura{
+	
+	position: relative;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 1.5em;
+
+
+}
+
+.informacao{
+	position:relative;
+	margin: 0 150px;
+	font-size:12px;
+}
+
+.informacao:before{
+	content: "🛈";
+	position: absolute;
+	margin: 0 -10px;
+}
+
+.botoes{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	margin: 0 130px;
+	
+}
+
+.crip{
+	width: 200px;
+	height: 50px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	background: #0A3871;
+	border-radius: 24px;
+	border: 2px solid #0A3871;
+	transition: 500ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.descrip{
+	width: 200px;
+	height: 50px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;	
+	background: #D8DFE8;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 24px;
+	border: 1.5px solid #0A3871;
+	position: static;
+	transition: 500ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.descrip:hover{
+	transform: scale3d(1.5, 1.5, 1.5);
+}
+
+
+.crip:hover{
+	transform: scale3d(1.5, 1.5, 1.5);
+}
+
+.caixa{
+	margin: 0 120px;
+	position: relative;
+	border-radius: 32px;
+	text-align: center;
+	resize: none;
+	display: inline-block;
+
+
+}
+
+textarea::placeholder{
+
+	text-align: center;
+	font-size: 20px;
+
+}
+.segundacaixa{
+	position: absolute;
+	width: 400px;
+	height: 550px;
+	left: 600px;
+	top: 20px;
+	border-radius: 32px;
+	background: #FFFFFF;
+	margin-left: 200px;
+	text-align: center;
+	resize: none;
+	background-image: url("imagens/boneco.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150px;
+}
+
+.copiar{
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	box-sizing: border-box;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	left: 65%;
+	top: 500px;
+	border: 1.5px solid #0A3871;
+	border-radius: 24px;
+	background: #D8DFE8;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 10px #000000;
+	
+}
+.copiar:hover{
+	transform: scale3d(1.5, 1.5, 1.5);
+	transition: 500ms;
+}
+
+
+h3{
+	width: 336px;
+	height: 58px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	/* or 29px */
+	text-align: center;
+	position: relative;
+	left: 25%;
+	top: 250px;
+	color: #343A40;
+	display: block;
+
+}
+h4{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 16px;
+	text-align: center;
+	color: #495057;
+	position: relative;
+	left: 25%;
+	top: 250px;
+	display: block;
+
+}
+
+footer {
+	margin: 20px 0;
+	text-align: center;
+	font-size: 12px;
+	font-family:'Inter';
+	font-style: normal;
+	font-weight: bold;
+}
+	
+	
+.rodape{
+	padding: 10px;
+}
+
+.icone1:hover,.icone2:hover{
+	transform: scale3d(1.5, 1.5, 1.5);
+	transition: 1ms;
+}
+
