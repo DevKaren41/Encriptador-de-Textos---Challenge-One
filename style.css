@@ -199,29 +199,51 @@ footer {
 	transition: 1ms;
 }
 
-@media screen and (max-width: 480px){
-	.figura, , .crip, .descrip,.infomacao{ 
+@media screen and (max-width: 740px){
+	.figura, , .crip, .descrip,.infomacao, .figura{ 
 
 		width: auto;
 	}
+	body{
+		background: #836FFF;
+	}
+	.crip: hover{
+		transform: scale3d(1.5, 1.5, 1.5);
+		transition: 500ms;
 
-	.caixa{
-		margin: 0 80px;
 	}
 
+	.caixa{
+		width: 60%;
+
+		
+	}
 	.segundacaixa{
-		margin: 0 120px;
-		left: 550px;
+		width: 90%;
+		position: absolute;
+		margin: 0 30px;
 	}
 
 	.copiar{
-		left: 15%;
+		margin: 0 10px;
+		left: 700px;
+		top: 500px;
+		position: absolute;
 		
 	}
-	h3, h4{
-		left: 1px;
+	h3{
+		text-align: center;
+		left: 650px;
+		top: 350px;
+		position: absolute;
 	}
+	h4{
+		position: relative;
+		left: 50px;
+		top: 310px;
+		text-align: center;
 
+	}
 	p.rodape{
 		left: 100%;
 		position: relative;
@@ -234,4 +256,3 @@ footer {
 
 	}
 }
-
